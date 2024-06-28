@@ -16,8 +16,6 @@
  display: flex;
  align-items: center;
 }
-   /* código omitido */
-
 .lista-menu {
  display: none;
 position: absolute;

@@ -13,7 +13,35 @@
     align-items: center;
 }
 .container {
-    display: flex;
-    align-items: center;
+ display: flex;
+ align-items: center;
 }
-   
+   /* código omitido */
+
+.lista-menu {
+ display: none;
+position: absolute;
+top: 100%;
+}
+
+
+    .container__botao:checked ~ .lista-menu {
+        display: block;
+}
+/* código omitido */
+
+.lista-menu_titulo, 
+.lista-menu_item {
+    padding: 1em,
+    background-color: var(--branco);
+
+}
+/* código omitido */
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
